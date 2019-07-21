@@ -22,5 +22,6 @@
 <li>Run <code>npm install express@4.17.1</code> to install <strong>Express.js version 4.17.1</strong>. This is the middleware for the back end server.</li>
 <li>Run <code>npm install mongoose@5.6.5</code> to install <strong>mongoose version 5.6.5</strong> so express can connect to the mongo database.</li>
 <li>Run <code>npm install cors@2.8.5</code> to install <strong>CORS version 2.8.5</strong> to handle the cross origin support.</li>
+<li>Run <code>npm install braces@2.3.1</code> to install <strong>braces version 2.3.1</strong> because any version below 2.3.1 causes security errors with RegEx.</li>
 <li>Run the server with <code>npm run dev</code> for ECMA6 compatability</li>
 </ol>
