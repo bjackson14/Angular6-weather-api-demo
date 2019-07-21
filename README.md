@@ -6,9 +6,9 @@
 <h2>Front End Installation</h2>
 <br>
 <ol>
-1. Download <strong>Node.js version 8.11.4</strong> <a href="https://nodejs.org/download/release/v8.11.4/">here</a> and install. Please select the version for your system. I developed this on Windows 10, so I used the win64 msi file.
-2. Run <code>npm -v</code> to make sure <strong>npm version 5.6.0</strong> is installed. This is the version packaged with Node.js version 8.11.4.
-3. Run <code>npm install @angular/cli@6.2.9</code> to install <strong>Angular CLI version 6.2.9</strong>.
-4. Run <code>ng add @angular/material</code> to install and configure the Angular Material library. This should install <strong>@angular/material version 6.4.7</strong>. For more information on Angular Material, visit <a href="https://material.angular.io/">material.angular.io</a>.
-5. Run <code>npm install ajv@6.9.1</code> to install <strong>ajv version 6.9.1</strong> because it is a dependency of ajv-keywords which is a dependency of Angular Materials. Angular Materials will install ajv-keywords, so you will not have to install that yourself.
+<li>Download <strong>Node.js version 8.11.4</strong> <a href="https://nodejs.org/download/release/v8.11.4/">here</a> and install. Please select the version for your system. I developed this on Windows 10, so I used the win64 msi file.</li>
+<li>Run <code>npm -v</code> to make sure <strong>npm version 5.6.0</strong> is installed. This is the version packaged with Node.js version 8.11.4.</li>
+<li>Run <code>npm install @angular/cli@6.2.9</code> to install <strong>Angular CLI version 6.2.9</strong>.</li>
+<li>Run <code>ng add @angular/material</code> to install and configure the Angular Material library. This should install <strong>@angular/material version 6.4.7</strong>. For more information on Angular Material, visit <a href="https://material.angular.io/">material.angular.io</a>.</li>
+<li>Run <code>npm install ajv@6.9.1</code> to install <strong>ajv version 6.9.1</strong> because it is a dependency of ajv-keywords which is a dependency of Angular Materials. Angular Materials will install ajv-keywords, so you will not have to install that yourself.</li>
 </ol>
