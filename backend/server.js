@@ -27,15 +27,20 @@ router.route('/').get((req, res) => {
 // Sets up route to get one login
 router.route('/login/:username').get((req, res) => {
     // Checks if username exists
-    Login.find({'username': req.params.username}, (err, login) => {
+    Login.find({'username': req.params.username}, (err, data) => {
         if (err)
             console.log(err);
         // If username doesn't exist send error
-        else if (login.length === 0)
+        else if (data.length === 0)
             res.status(400).send('No user found');
         // If username exists send login information in json format
-        else
+        else if (data.length === 1) {
+            // Gets only necessary login information out of data array 
+            let login = new Login(data[0]);
             res.json(login);
+        }
+        else
+            res.status(400).send('Multiple entries found');
     });
 });
 
@@ -54,7 +59,7 @@ router.route('/login/add').post((req, res) => {
                     res.status(200).json({'login': 'New user added'});
                 })
                 .catch(err => {
-                    res.status(400).send('Failed add new user');
+                    res.status(400).send('Failed to add new user');
                 });
         }
         // Sends error if username exits

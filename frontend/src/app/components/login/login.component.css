@@ -1,7 +1,9 @@
-label, input {
-    margin-left: 2vw;
+/* Needed for mobile screens so inout fields won't be flush against screen */
+input {
+    margin-left: 1.25vw;
 }
 
+/* Horizontally aligns form to center of screen */
 form {
     margin-top: 25vh;
 }
