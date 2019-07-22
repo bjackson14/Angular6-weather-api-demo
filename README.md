@@ -7,7 +7,7 @@
 <br>
 <ol>
 <li>Download MongoDB version 4 from <a href="https://www.mongodb.com/download-center/community">www.mongodb.com/download-center/community</a> and install it. Make sure it is running on port 27017. Alternativley, a MongoDB Cloud database can be used, but the connection in <strong>server.js</strong> will need to be changed so it can connect.</li>
-<li>Download a rest client such as ARC from <a href="https://install.advancedrestclient.com/install">install.advancedrestclient.com/install</a> or PostMan from <a href="https://www.getpostman.com/downloads/">www.getpostman.com/downloads/</a></li> to test the backend end points.</li>
+<li>Download a rest client such as ARC from <a href="https://install.advancedrestclient.com/install">install.advancedrestclient.com/install</a> or PostMan from <a href="https://www.getpostman.com/downloads/">www.getpostman.com/downloads/</a> to test the backend end points.</li>
 </ol>
 <h2>Front End Installation</h2>
 <br>
