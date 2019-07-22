@@ -3,10 +3,16 @@
 
 <h1>Installation</h1>
 <br>
+<h2>Database and Rest Client</h2>
+<br>
+<ol>
+<li>Download MongoDB version 4 from <a href="https://www.mongodb.com/download-center/community">www.mongodb.com/download-center/community</a> and install it. Make sure it is running on port 27017. Alternativley, a MongoDB Cloud database can be used, but the connection in <strong>server.js</strong> will need to be changed so it can connect.</li>
+</li>Download a rest client such as ARC from <a href="https://install.advancedrestclient.com/install">install.advancedrestclient.com/install</a> or PostMan from <a href="https://www.getpostman.com/downloads/">www.getpostman.com/downloads/</a></li> to test the backend end points. 
+</ol>
 <h2>Front End Installation</h2>
 <br>
 <ol>
-<li>Download <strong>Node.js version 8.11.4</strong> <a href="https://nodejs.org/download/release/v8.11.4/">here</a> and install. Please select the version for your system. I developed this on Windows 10, so I used the win64 msi file.</li>
+<li>Download <strong>Node.js version 8.11.4</strong> from <a href="https://nodejs.org/download/release/v8.11.4/">nodejs.org/download/release/v8.11.4</a> and install. Please select the version for your system. I developed this on Windows 10, so I used the win64 msi file.</li>
 <li>Run <code>npm -v</code> to make sure <strong>npm version 5.6.0</strong> is installed. This is the version packaged with Node.js version 8.11.4.</li>
 <li>Run <code>npm install @angular/cli@6.2.9</code> to install <strong>Angular CLI version 6.2.9</strong>.</li>
 <li>Run <code>ng add @angular/material</code> to install and configure the Angular Material library. This should install <strong>@angular/material version 6.4.7</strong>. For more information on Angular Material, visit <a href="https://material.angular.io/">material.angular.io</a>.</li>
