@@ -1,9 +1,15 @@
-/* Needed for mobile screens so inout fields won't be flush against screen */
-input {
-    margin-left: 1.25vw;
+/* Horizontally aligns form to center of screen */
+.content {
+    margin-top: 25vh;
 }
 
-/* Horizontally aligns form to center of screen */
-form {
-    margin-top: 25vh;
+.error {
+    background-color: red;
+    height: 10vh;
+}
+
+.error-content {
+    padding-top: 2.5vh;
+    font-size: 3rem;
+    color: white;
 }
